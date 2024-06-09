@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+
+body {
+	/* backdrop-filter: blur(1px); */
+	min-height: 100vh;
+    background: url(aeroplane.jpg) center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.container {
+	
+	width: 80vw;
+	background-color: #fff5;
+   
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    max-width: 800px;
+    /* margin: 5px auto; */
+    padding: 20px;
+    margin-top: -25px;
+      	 
+}
+
+
+.container h1 {
+	margin-top:5px;
+    text-align: center;
+    margin-bottom: 15px;
+     width:90%;
+    height: 10%;
+    background-color: #fff4;
+    padding: .8rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	margin-top:-20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+.form-input{
+    width: calc(100% - 60px);
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+input[type="submit"], button {
+    width: 100%;
+    padding: 10px;
+    background-color: #213d5d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+input[type="submit"]:hover , button:hover{
+    background-color: #2e5683;
+}
+
+.two-fields{
+	display: flex;
+   	/* margin-left: 2px; */
+}
+h4{
+	color: red;
+	 position:absolute;
+	 margin-top:70px;
+	 margin-left:230px;
+}

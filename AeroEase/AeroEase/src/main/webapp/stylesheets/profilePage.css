@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+
+  }
+
+  h2{
+    margin-top: 35px;
+    margin-left:220px;
+  }
+  .sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #213d5d;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    
+  }
+  .sidebar a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-size: 120%;
+    font-weight: 400;
+    
+   
+  }
+  .sidebar a:hover {
+    background-color: #35639a;
+  }
+  .content {
+    margin-left: 220px;
+    padding: 20px;
+    
+  }
+  @media screen and (max-width: 600px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .content {
+      margin-left: 0;
+    }
+  }
+  .profile-info {
+    margin-bottom: 5px;
+    
+   
+    
+  }
+  .profile-info label {
+    font-weight: bold;
+  }
+  .profile-info input {
+    width: 300px; /* Adjusted width */
+    padding: 5px; /* Adjusted padding */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px
+    
+  }
+ 
+  #profilePicContainer {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  #profilePicContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #profilePic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .two-fields{
+    display: flex;
+    gap: 100px;
+  }
+
+  button{
+    width: 30%;
+    padding: 10px;
+    margin-left: 450px;
+    background-color: #213d5d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  label{
+    font-weight: bold;
+  }
+  .glass-frame {
+  background: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add padding to create space between content and border */
+ margin: 0 auto;
+  margin-bottom: 20px; /* Adjust margin as needed */
+
+
+  width: 80vw;
+	background-color: #fff5;
+   
+    box-shadow: 0 .4rem .8rem #0005;
+  
+    max-width: 800px;
+
+    padding: 20px;
+      	 
+
+}
